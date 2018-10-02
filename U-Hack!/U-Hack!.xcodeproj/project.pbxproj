@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334115B21845FD8659D59FB1 /* Pods_U_Hack_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DE6512D064E866E2B4BB08 /* Pods_U_Hack_UITests.framework */; };
+		EA1D2D462161575E00EB2BC1 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1D2D452161575E00EB2BC1 /* NetworkExtension.framework */; };
+		EA4B9353215E81AD001A007C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9352215E81AD001A007C /* AppDelegate.swift */; };
+		EA4B9355215E81AD001A007C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9354215E81AD001A007C /* ViewController.swift */; };
+		EA4B9358215E81AD001A007C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4B9356215E81AD001A007C /* Main.storyboard */; };
+		EA4B935A215E81AE001A007C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4B9359215E81AE001A007C /* Assets.xcassets */; };
+		EA4B935D215E81AE001A007C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4B935B215E81AE001A007C /* LaunchScreen.storyboard */; };
+		EA4B9368215E81AF001A007C /* U_Hack_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9367215E81AF001A007C /* U_Hack_Tests.swift */; };
+		EA4B9373215E81AF001A007C /* U_Hack_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9372215E81AF001A007C /* U_Hack_UITests.swift */; };
+		EA4B9381215E8223001A007C /* VCMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9380215E8223001A007C /* VCMain.swift */; };
+		EA4B9383215E824A001A007C /* WifiConection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9382215E824A001A007C /* WifiConection.swift */; };
+		EA4B9387215E835E001A007C /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9386215E835E001A007C /* Reach.swift */; };
+		EA4B9389215E8390001A007C /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B9388215E8390001A007C /* Tools.swift */; };
+		EA7106932162105200AD7E00 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7106922162105200AD7E00 /* HTTPRequest.swift */; };
+		EA7106952162548B00AD7E00 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7106942162548B00AD7E00 /* SwiftyJSON.swift */; };
+		EAF1DFDA216363A800B50962 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1DFD9216363A800B50962 /* DataHolder.swift */; };
+		EAF1DFDC2163679700B50962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAF1DFDB2163679700B50962 /* GoogleService-Info.plist */; };
+		EAF1DFDE21636ABC00B50962 /* VCTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1DFDD21636ABC00B50962 /* VCTesting.swift */; };
+		EAF1DFE12163741600B50962 /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1DFE02163741600B50962 /* RestApi.swift */; };
+		F0CD137EC95F5AC16611D06F /* Pods_U_Hack_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F898471C48AF4515D31243 /* Pods_U_Hack_Tests.framework */; };
+		F3970A17860829A0A594B369 /* Pods_U_Hack_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8BEA177F255374DA7EDC11 /* Pods_U_Hack_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA4B9364215E81AF001A007C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4B9347215E81AD001A007C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4B934E215E81AD001A007C;
+			remoteInfo = "U-Hack!";
+		};
+		EA4B936F215E81AF001A007C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4B9347215E81AD001A007C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4B934E215E81AD001A007C;
+			remoteInfo = "U-Hack!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B68EC2845D087BBDF643B4 /* Pods-U-Hack!UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Hack!UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U-Hack!UITests/Pods-U-Hack!UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F9ABE1544ADF1D6891104E6 /* Pods-U-Hack!UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Hack!UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-U-Hack!UITests/Pods-U-Hack!UITests.release.xcconfig"; sourceTree = "<group>"; };
+		21F898471C48AF4515D31243 /* Pods_U_Hack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_U_Hack_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6F6EEFE4D27669B96EA513 /* Pods-U-Hack!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Hack!.release.xcconfig"; path = "Pods/Target Support Files/Pods-U-Hack!/Pods-U-Hack!.release.xcconfig"; sourceTree = "<group>"; };
+		79862EDBD2F8F9649E6EB44B /* Pods-U-Hack!Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Hack!Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U-Hack!Tests/Pods-U-Hack!Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F93541088328EAB3226EA57 /* Pods-U-Hack!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Hack!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U-Hack!/Pods-U-Hack!.debug.xcconfig"; sourceTree = "<group>"; };
+		9C45020A3D915C096603F07B /* Pods-U-Hack!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Hack!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-U-Hack!Tests/Pods-U-Hack!Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC8BEA177F255374DA7EDC11 /* Pods_U_Hack_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_U_Hack_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DE6512D064E866E2B4BB08 /* Pods_U_Hack_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_U_Hack_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1D2D452161575E00EB2BC1 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		EA1D2D472161575E00EB2BC1 /* U-Hack!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "U-Hack!.entitlements"; sourceTree = "<group>"; };
+		EA4B934F215E81AD001A007C /* U-Hack!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "U-Hack!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4B9352215E81AD001A007C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4B9354215E81AD001A007C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA4B9357215E81AD001A007C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA4B9359215E81AE001A007C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4B935C215E81AE001A007C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4B935E215E81AE001A007C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4B9363215E81AF001A007C /* U-Hack!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "U-Hack!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4B9367215E81AF001A007C /* U_Hack_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_Hack_Tests.swift; sourceTree = "<group>"; };
+		EA4B9369215E81AF001A007C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4B936E215E81AF001A007C /* U-Hack!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "U-Hack!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4B9372215E81AF001A007C /* U_Hack_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_Hack_UITests.swift; sourceTree = "<group>"; };
+		EA4B9374215E81AF001A007C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4B9380215E8223001A007C /* VCMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMain.swift; sourceTree = "<group>"; };
+		EA4B9382215E824A001A007C /* WifiConection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConection.swift; sourceTree = "<group>"; };
+		EA4B9386215E835E001A007C /* Reach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		EA4B9388215E8390001A007C /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		EA7106922162105200AD7E00 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		EA7106942162548B00AD7E00 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		EAF1DFD9216363A800B50962 /* DataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
+		EAF1DFDB2163679700B50962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAF1DFDD21636ABC00B50962 /* VCTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTesting.swift; sourceTree = "<group>"; };
+		EAF1DFE02163741600B50962 /* RestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4B934C215E81AD001A007C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1D2D462161575E00EB2BC1 /* NetworkExtension.framework in Frameworks */,
+				F3970A17860829A0A594B369 /* Pods_U_Hack_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4B9360215E81AF001A007C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CD137EC95F5AC16611D06F /* Pods_U_Hack_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4B936B215E81AF001A007C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334115B21845FD8659D59FB1 /* Pods_U_Hack_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD54643F3062A0461F2A198F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F93541088328EAB3226EA57 /* Pods-U-Hack!.debug.xcconfig */,
+				2E6F6EEFE4D27669B96EA513 /* Pods-U-Hack!.release.xcconfig */,
+				79862EDBD2F8F9649E6EB44B /* Pods-U-Hack!Tests.debug.xcconfig */,
+				9C45020A3D915C096603F07B /* Pods-U-Hack!Tests.release.xcconfig */,
+				18B68EC2845D087BBDF643B4 /* Pods-U-Hack!UITests.debug.xcconfig */,
+				1F9ABE1544ADF1D6891104E6 /* Pods-U-Hack!UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA1D2D442161575E00EB2BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D2D452161575E00EB2BC1 /* NetworkExtension.framework */,
+				DC8BEA177F255374DA7EDC11 /* Pods_U_Hack_.framework */,
+				21F898471C48AF4515D31243 /* Pods_U_Hack_Tests.framework */,
+				E5DE6512D064E866E2B4BB08 /* Pods_U_Hack_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA4B9346215E81AD001A007C = {
+			isa = PBXGroup;
+			children = (
+				EA4B9351215E81AD001A007C /* U-Hack! */,
+				EA4B9366215E81AF001A007C /* U-Hack!Tests */,
+				EA4B9371215E81AF001A007C /* U-Hack!UITests */,
+				EA4B9350215E81AD001A007C /* Products */,
+				EA1D2D442161575E00EB2BC1 /* Frameworks */,
+				DD54643F3062A0461F2A198F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4B9350215E81AD001A007C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4B934F215E81AD001A007C /* U-Hack!.app */,
+				EA4B9363215E81AF001A007C /* U-Hack!Tests.xctest */,
+				EA4B936E215E81AF001A007C /* U-Hack!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4B9351215E81AD001A007C /* U-Hack! */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1DFDF21636AF700B50962 /* Testing */,
+				EAF1DFD82163638900B50962 /* Res */,
+				EA1D2D472161575E00EB2BC1 /* U-Hack!.entitlements */,
+				EA4B9385215E834F001A007C /* SupportClasses */,
+				EA4B9384215E824E001A007C /* ViewControllers */,
+				EA4B9352215E81AD001A007C /* AppDelegate.swift */,
+				EA4B9356215E81AD001A007C /* Main.storyboard */,
+				EA4B9359215E81AE001A007C /* Assets.xcassets */,
+				EA4B935B215E81AE001A007C /* LaunchScreen.storyboard */,
+				EA4B935E215E81AE001A007C /* Info.plist */,
+			);
+			path = "U-Hack!";
+			sourceTree = "<group>";
+		};
+		EA4B9366215E81AF001A007C /* U-Hack!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4B9367215E81AF001A007C /* U_Hack_Tests.swift */,
+				EA4B9369215E81AF001A007C /* Info.plist */,
+			);
+			path = "U-Hack!Tests";
+			sourceTree = "<group>";
+		};
+		EA4B9371215E81AF001A007C /* U-Hack!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4B9372215E81AF001A007C /* U_Hack_UITests.swift */,
+				EA4B9374215E81AF001A007C /* Info.plist */,
+			);
+			path = "U-Hack!UITests";
+			sourceTree = "<group>";
+		};
+		EA4B9384215E824E001A007C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA4B9380215E8223001A007C /* VCMain.swift */,
+				EA4B9354215E81AD001A007C /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA4B9385215E834F001A007C /* SupportClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EA4B9386215E835E001A007C /* Reach.swift */,
+				EA4B9388215E8390001A007C /* Tools.swift */,
+				EA4B9382215E824A001A007C /* WifiConection.swift */,
+				EA7106922162105200AD7E00 /* HTTPRequest.swift */,
+				EA7106942162548B00AD7E00 /* SwiftyJSON.swift */,
+			);
+			path = SupportClasses;
+			sourceTree = "<group>";
+		};
+		EAF1DFD82163638900B50962 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1DFDB2163679700B50962 /* GoogleService-Info.plist */,
+				EAF1DFD9216363A800B50962 /* DataHolder.swift */,
+				EAF1DFE02163741600B50962 /* RestApi.swift */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		EAF1DFDF21636AF700B50962 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1DFDD21636ABC00B50962 /* VCTesting.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4B934E215E81AD001A007C /* U-Hack! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4B9377215E81AF001A007C /* Build configuration list for PBXNativeTarget "U-Hack!" */;
+			buildPhases = (
+				46B679E82E94C1DC0E06C5DF /* [CP] Check Pods Manifest.lock */,
+				EA4B934B215E81AD001A007C /* Sources */,
+				EA4B934C215E81AD001A007C /* Frameworks */,
+				EA4B934D215E81AD001A007C /* Resources */,
+				529B692BC0D603E2826D3218 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "U-Hack!";
+			productName = "U-Hack!";
+			productReference = EA4B934F215E81AD001A007C /* U-Hack!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA4B9362215E81AF001A007C /* U-Hack!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4B937A215E81AF001A007C /* Build configuration list for PBXNativeTarget "U-Hack!Tests" */;
+			buildPhases = (
+				A824BB8969F601966A7EB1F0 /* [CP] Check Pods Manifest.lock */,
+				EA4B935F215E81AF001A007C /* Sources */,
+				EA4B9360215E81AF001A007C /* Frameworks */,
+				EA4B9361215E81AF001A007C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4B9365215E81AF001A007C /* PBXTargetDependency */,
+			);
+			name = "U-Hack!Tests";
+			productName = "U-Hack!Tests";
+			productReference = EA4B9363215E81AF001A007C /* U-Hack!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA4B936D215E81AF001A007C /* U-Hack!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4B937D215E81AF001A007C /* Build configuration list for PBXNativeTarget "U-Hack!UITests" */;
+			buildPhases = (
+				D058BCEB89B8521D8B73E15C /* [CP] Check Pods Manifest.lock */,
+				EA4B936A215E81AF001A007C /* Sources */,
+				EA4B936B215E81AF001A007C /* Frameworks */,
+				EA4B936C215E81AF001A007C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4B9370215E81AF001A007C /* PBXTargetDependency */,
+			);
+			name = "U-Hack!UITests";
+			productName = "U-Hack!UITests";
+			productReference = EA4B936E215E81AF001A007C /* U-Hack!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4B9347215E81AD001A007C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "U-Hack";
+				TargetAttributes = {
+					EA4B934E215E81AD001A007C = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EA4B9362215E81AF001A007C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EA4B934E215E81AD001A007C;
+					};
+					EA4B936D215E81AF001A007C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EA4B934E215E81AD001A007C;
+					};
+				};
+			};
+			buildConfigurationList = EA4B934A215E81AD001A007C /* Build configuration list for PBXProject "U-Hack!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4B9346215E81AD001A007C;
+			productRefGroup = EA4B9350215E81AD001A007C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4B934E215E81AD001A007C /* U-Hack! */,
+				EA4B9362215E81AF001A007C /* U-Hack!Tests */,
+				EA4B936D215E81AF001A007C /* U-Hack!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4B934D215E81AD001A007C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4B935D215E81AE001A007C /* LaunchScreen.storyboard in Resources */,
+				EAF1DFDC2163679700B50962 /* GoogleService-Info.plist in Resources */,
+				EA4B935A215E81AE001A007C /* Assets.xcassets in Resources */,
+				EA4B9358215E81AD001A007C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4B9361215E81AF001A007C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4B936C215E81AF001A007C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46B679E82E94C1DC0E06C5DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-U-Hack!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529B692BC0D603E2826D3218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-U-Hack!/Pods-U-Hack!-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U-Hack!/Pods-U-Hack!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A824BB8969F601966A7EB1F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-U-Hack!Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D058BCEB89B8521D8B73E15C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-U-Hack!UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4B934B215E81AD001A007C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4B9355215E81AD001A007C /* ViewController.swift in Sources */,
+				EAF1DFDA216363A800B50962 /* DataHolder.swift in Sources */,
+				EA4B9353215E81AD001A007C /* AppDelegate.swift in Sources */,
+				EA7106932162105200AD7E00 /* HTTPRequest.swift in Sources */,
+				EA7106952162548B00AD7E00 /* SwiftyJSON.swift in Sources */,
+				EA4B9387215E835E001A007C /* Reach.swift in Sources */,
+				EA4B9389215E8390001A007C /* Tools.swift in Sources */,
+				EA4B9381215E8223001A007C /* VCMain.swift in Sources */,
+				EA4B9383215E824A001A007C /* WifiConection.swift in Sources */,
+				EAF1DFDE21636ABC00B50962 /* VCTesting.swift in Sources */,
+				EAF1DFE12163741600B50962 /* RestApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4B935F215E81AF001A007C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4B9368215E81AF001A007C /* U_Hack_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4B936A215E81AF001A007C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4B9373215E81AF001A007C /* U_Hack_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA4B9365215E81AF001A007C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA4B934E215E81AD001A007C /* U-Hack! */;
+			targetProxy = EA4B9364215E81AF001A007C /* PBXContainerItemProxy */;
+		};
+		EA4B9370215E81AF001A007C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA4B934E215E81AD001A007C /* U-Hack! */;
+			targetProxy = EA4B936F215E81AF001A007C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA4B9356215E81AD001A007C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4B9357215E81AD001A007C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA4B935B215E81AE001A007C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4B935C215E81AE001A007C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4B9375215E81AF001A007C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA4B9376215E81AF001A007C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4B9378215E81AF001A007C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F93541088328EAB3226EA57 /* Pods-U-Hack!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "U-Hack!/U-Hack!.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2727Q4HL3;
+				INFOPLIST_FILE = "U-Hack!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "southsummit.U-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA4B9379215E81AF001A007C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6F6EEFE4D27669B96EA513 /* Pods-U-Hack!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "U-Hack!/U-Hack!.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2727Q4HL3;
+				INFOPLIST_FILE = "U-Hack!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "southsummit.U-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA4B937B215E81AF001A007C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79862EDBD2F8F9649E6EB44B /* Pods-U-Hack!Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6MRNMJBVE;
+				INFOPLIST_FILE = "U-Hack!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "southsummit.U-Hack-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/U-Hack!.app/U-Hack!";
+			};
+			name = Debug;
+		};
+		EA4B937C215E81AF001A007C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C45020A3D915C096603F07B /* Pods-U-Hack!Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6MRNMJBVE;
+				INFOPLIST_FILE = "U-Hack!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "southsummit.U-Hack-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/U-Hack!.app/U-Hack!";
+			};
+			name = Release;
+		};
+		EA4B937E215E81AF001A007C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B68EC2845D087BBDF643B4 /* Pods-U-Hack!UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6MRNMJBVE;
+				INFOPLIST_FILE = "U-Hack!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "southsummit.U-Hack-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "U-Hack!";
+			};
+			name = Debug;
+		};
+		EA4B937F215E81AF001A007C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9ABE1544ADF1D6891104E6 /* Pods-U-Hack!UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6MRNMJBVE;
+				INFOPLIST_FILE = "U-Hack!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "southsummit.U-Hack-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "U-Hack!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4B934A215E81AD001A007C /* Build configuration list for PBXProject "U-Hack!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4B9375215E81AF001A007C /* Debug */,
+				EA4B9376215E81AF001A007C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4B9377215E81AF001A007C /* Build configuration list for PBXNativeTarget "U-Hack!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4B9378215E81AF001A007C /* Debug */,
+				EA4B9379215E81AF001A007C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4B937A215E81AF001A007C /* Build configuration list for PBXNativeTarget "U-Hack!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4B937B215E81AF001A007C /* Debug */,
+				EA4B937C215E81AF001A007C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4B937D215E81AF001A007C /* Build configuration list for PBXNativeTarget "U-Hack!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4B937E215E81AF001A007C /* Debug */,
+				EA4B937F215E81AF001A007C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4B9347215E81AD001A007C /* Project object */;
+}
