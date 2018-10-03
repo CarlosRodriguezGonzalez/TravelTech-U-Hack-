@@ -1,0 +1,320 @@
+{
+	"info": {
+		"_postman_id": "7d58f374-87e3-466c-a20e-810c2d6e5bb4",
+		"name": "TravelTechSouthSummit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.openweathermap.org/data/2.5/forecast?q=Luxembourg&appid=71f57db207e2e95f070ee3c47ae7ec6e&units=metric",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Luxembourg"
+						},
+						{
+							"key": "appid",
+							"value": "71f57db207e2e95f070ee3c47ae7ec6e"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPOIs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://data.avuxiapis.com/v1/GetPointsOfInterestByBox?key=5ba9f93132fac7089e1afd33|831c876386abb8e9d8965b64570a3078&north=40.953010&west=-74.073969&south=40.556396&east=-73.902777&limit=1000",
+					"protocol": "https",
+					"host": [
+						"data",
+						"avuxiapis",
+						"com"
+					],
+					"path": [
+						"v1",
+						"GetPointsOfInterestByBox"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "5ba9f93132fac7089e1afd33|831c876386abb8e9d8965b64570a3078"
+						},
+						{
+							"key": "north",
+							"value": "40.953010"
+						},
+						{
+							"key": "west",
+							"value": "-74.073969"
+						},
+						{
+							"key": "south",
+							"value": "40.556396"
+						},
+						{
+							"key": "east",
+							"value": "-73.902777"
+						},
+						{
+							"key": "limit",
+							"value": "1000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFlightInfo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ZMWLQ80xtyiUCF38G46hClBG1TlG",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://test.api.amadeus.com/v1/shopping/flight-offers?origin=MAD&destination=NYC&departureDate=2018-10-03&returnDate=2018-10-06",
+					"protocol": "https",
+					"host": [
+						"test",
+						"api",
+						"amadeus",
+						"com"
+					],
+					"path": [
+						"v1",
+						"shopping",
+						"flight-offers"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "MAD"
+						},
+						{
+							"key": "destination",
+							"value": "NYC"
+						},
+						{
+							"key": "departureDate",
+							"value": "2018-10-03"
+						},
+						{
+							"key": "returnDate",
+							"value": "2018-10-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bbvaGetAuth",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YXBwLmJidmEuQWlyVHJlZXA6bUYzTypASjhVRmcwWlVPWm8qcXg3TE1MZTZGVlpHVnFaeXEyRWRXd2FtYmdrbzZ4ajElTU4wc1ZXeklWTkQwQw=="
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://connect.bbva.com/token?grant_type=client_credentials&appID=app.bbva.AirTree",
+					"protocol": "https",
+					"host": [
+						"connect",
+						"bbva",
+						"com"
+					],
+					"path": [
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials"
+						},
+						{
+							"key": "appID",
+							"value": "app.bbva.AirTree"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getHotelInfo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "9gDunJwcqq551gArRFfo6HROxGcy",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://test.api.amadeus.com/v1/shopping/hotel-offers?cityCode=LON&checkInDate=2018-10-12&checkOutDate=2018-10-16",
+					"protocol": "https",
+					"host": [
+						"test",
+						"api",
+						"amadeus",
+						"com"
+					],
+					"path": [
+						"v1",
+						"shopping",
+						"hotel-offers"
+					],
+					"query": [
+						{
+							"key": "cityCode",
+							"value": "LON"
+						},
+						{
+							"key": "checkInDate",
+							"value": "2018-10-12"
+						},
+						{
+							"key": "checkOutDate",
+							"value": "2018-10-16"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bbvaSEL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "jwt eyJ6aXAiOiJERUYiLCJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.sRnNRu1h_f4D9rCMsWKTCRMe67cZ0t5PkFdTVf0q4ppF7Oz6xmisboJ5uS-G0HCp3h-DVcR9yZeyvj6uCjaD1BL8hIsK1lijGxUfXIEAFdTuuPkQywoJWcxRjQekpWh7MwA2F4vBGXoak_VCf0692K-3ONqsU6wVlpW7lqWbnYIfy3VKlnJBHgTwOnsrUGL3dwkM3IwEZKCKunwUbXShwXZAHv6m88KbUD90RTOzfGHdryt2ruPYQn4VpEukxVMrPAjp9moyqUz-PijrapT0UnNso_tDhEC6HHGEUe2IGmlc-4xdX--jwaz6M0_qDaTAm-5UOzSqCybXxKpw7ccjMg.RZIaCtQ16SrrnqnM.e62irHQCKOuobmofQpNTscHyKKG0FsSPgP6Pw1BW-kEOAwbOlB6I2NywnyhkDWVD-5aH3mvlQ2wk1Y3scYcTfkRM_FW745cjKOMqmCDU7YVzKep0mYLA_TUtJOzusz1dXbFUbcmZ5WwmmIzNmnEsI015Kq0SPMVlC0b1X5dURf8uccL-fIh6CnF5_O8Gxw5RlHeNZvwTtb-02C-JHRc-mxbxrtNkPAyShO_43WeOZQwj5R2HBoD8fj8ZNsIAd9R2vt7K1Qpn_l88Fh5pGKRMf0Uocv_T8LFBGVJdCYXXHim13zPU2z5206rmiR_EKzQqQhXT5jYr_s0LwOBDczQlEQTkPnGXG4eR13NmuLlVQwU741ws4u5oJyQG6RXi-s2gi-iq1dm-rB_5yMO0.pwq-53gQuOU3h7vytg7uYA"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://apis.bbva.com/sel-sbx/v1/info?lat=40.309251&long=-3.934121",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"bbva",
+						"com"
+					],
+					"path": [
+						"sel-sbx",
+						"v1",
+						"info"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "40.309251"
+						},
+						{
+							"key": "long",
+							"value": "-3.934121"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccessTokenAmadeus",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "VAywvANdPdsxwP6NCA8eKikGdF57QUcF",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "GCAZRSicTFpR6xbU",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://test.api.amadeus.com/v1/security/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"test",
+						"api",
+						"amadeus",
+						"com"
+					],
+					"path": [
+						"v1",
+						"security",
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
